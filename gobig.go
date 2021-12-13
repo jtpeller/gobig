@@ -8,6 +8,8 @@ package gobig
 
 import "math/big"
 
+const Version = "v0.1.1"
+
 // ##################### BIG.INT #####################
 // ### INITIALIZATION SECTION
 
