@@ -33,6 +33,13 @@ func Copy(a *bint) *bint {
 	return Add(Zero(), a)
 }
 
+// FromString() will convert provided string to a *bint
+func FromString(s string, base int) *bint {
+	n := Zero()
+	n, _ = n.SetString(s, base)
+	return n
+}
+
 // ### COMPARISON SECTIOn
 
 // Equals(a, b) returns true if a == b, false otherwise.
