@@ -1,6 +1,9 @@
 # gobig
 
 [![Go Reference](https://pkg.go.dev/badge/github.com/jtpeller/gobig.svg)](https://pkg.go.dev/github.com/jtpeller/gobig)
+[![Go Report Card](https://goreportcard.com/badge/github.com/jtpeller/gobig)](https://goreportcard.com/report/github.com/jtpeller/gobig)
+[![Release](https://img.shields.io/github/release/jtpeller/gobig.svg?style=flat-square)](https://github.com/jtpeller/gobig/releases)
+![GitHub License](https://img.shields.io/github/license/jtpeller/gobig)
 
 ## What
 
