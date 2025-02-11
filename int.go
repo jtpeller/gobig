@@ -40,7 +40,7 @@ func FromString(s string, base int) *bint {
 	return n
 }
 
-// ### COMPARISON SECTIOn
+// ### COMPARISONS
 
 // Equals(a, b) returns true if a == b, false otherwise.
 func Equals(a, b *bint) bool {
@@ -133,7 +133,7 @@ func Sub(a, b *bint) *bint {
 
 // Mul(a, b) returns a * b
 func Mul(a, b *bint) *bint {
-	return Zero().Mul(a,b)
+	return Zero().Mul(a, b)
 }
 
 // Div(a, b) returns a / b

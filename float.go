@@ -78,7 +78,7 @@ func SubFloat(a, b *bfloat) *bfloat {
 
 // MulFloat(a, b) returns a * b
 func MulFloat(a, b *bfloat) *bfloat {
-	return ZeroFloat().Mul(a,b)
+	return ZeroFloat().Mul(a, b)
 }
 
 // DivFloat(a, b) returns a / b
@@ -95,7 +95,9 @@ func PowFloat(a *bfloat, e int64) *bfloat {
 	for i := int64(0); i < e-1; i++ {
 		r = MulFloat(r, a)
 	}
-	if e < 0 {		// negative exponents are reciprocals of positives
+
+	// negative exponents are reciprocals of positives
+	if e < 0 {
 		return DivFloat(NewFloat(1), r)
 	}
 	return r
